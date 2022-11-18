@@ -1,4 +1,16 @@
-@media screen and (min-width: 1024px) {
+.lead__capture {
+    align-self: start;
+    margin: 8px 0 0 24px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+  }
+  @media screen and (min-width: 1024px) {
     .lead__capture {
       margin-left: 0;
     }
@@ -8,19 +20,4 @@
     .lead__capture {
       margin-left: 16px;
     }
-  }
-
-
-.lead__capture {
-    align-self: start;
-    margin: 8px 0 0 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-size: 10px;
-    line-height: 1.4;
-    letter-spacing: 0.15em;
-    color: #FFFFFF;
-  }
-  
+  }  
