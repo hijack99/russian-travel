@@ -12,6 +12,7 @@
     height: 100%;
     object-fit: cover;
     position: relative;
+    min-height: 740px;
   }
   
   
@@ -24,10 +25,10 @@
     bottom: 0;
     opacity: .3;
     transition: opacity .3s ease;
+    background: #2A2C2F;
   }
   
   
   .cover__link:hover::before {
-    background: #2A2C2F;
     opacity: .8;
   }
